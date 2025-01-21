@@ -5,5 +5,5 @@ These are (currently) the original Kernel headers (by christianhaitian) for the 
 If you are using ANY other device than the R36S or the R36H then please always use the original (and latest) headers from the original source:
 https://github.com/christianhaitian/arkos/tree/main/Headers
 
-If you're not a developer and are not installing (building!) custom drivers? Just stay away from these files, because you most likely won't ever need them ;)
+If you're not a developer and are not installing (building!) custom drivers? Just stay away from these files, because you most likely won't ever need them 😉😂
 
