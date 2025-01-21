@@ -1,5 +1,5 @@
 # ArkOS-XNL
-XNL Future Technologies ArkOS additions, improvements and tools for the R36S and R36H while using the official ArkOS version (by christianhaitian)
+XNL Future Technologies ArkOS additions, improvements and tools for the <strong>R36S</strong> and <strong>R36H</strong> while using the <strong>official ArkOS</strong> version (by christianhaitian)
 Which can be found here: https://github.com/christianhaitian/arkos
 
 We personally prefer to use to official ArkOS version (instead of the community maintained version), and for that version I have also developed
