@@ -6,7 +6,7 @@ We personally prefer to use to official ArkOS version (instead of the community 
 (and am currently developing) some significant updates, tools, programs and more. Which will all will be available on my Github at a later point
 when it's all done.
 
-But to prepare for this (and while working on these programs) I need to have certain files online already ;)
+But to prepare for this (and while working on these programs) I need to have certain files online already 😉
 
 Therefor this repository for the R36S / R36H XNL Addons
 
