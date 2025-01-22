@@ -15,8 +15,24 @@ Obviously it could also be that you would need these files as 'offline installat
 Then start the XNL Package Manager on your R36S/R36H and goto:
 <strong>->Advanced Packages & Drivers ->Developer Options  Install Kernel Headers</strong>
 
-After <strong>reading the information</strong> and confirming that you do want to install them you can then select option 4: <strong>Offline Install (/romd/XNLDev/update)</strong>
+After <strong>reading the information</strong> and confirming that you do want to install them you can then select option 4:
+<strong>Offline Install (/romd/XNLDev/update)</strong>
 
 And the XNL Installation Wizard should do the rest
 
 NOTE: The XNLDev needs to be made with the correct capitalization as shown, otherwise you might get issues when running the XNL Package Manager on your system! Most of the time this won't be an issue but just in case it is recommended to make sure the capitalization matches (this depends on the filesystem of your /roms folder and/or how the partition is mounted!)
+
+## Online Installation
+Online Installation of the kernel headers (and the required patches) is very easy when using the XNL Package Manager. You just start the XNL Package manager and goto:
+<strong>->Advanced Packages & Drivers ->Developer Options  Install Kernel Headers</strong>
+
+And from there you can choose which installation source you want to use:
+1 XNL Future Technologies GitHub
+2 Official ArkOS GitHub
+3 Offline Install (/roms/XNLDev/update)
+
+Just choose one of the two (online) installation sources and the wizard should do the rest for you. My versions are an exact mirror of the files on the Official ArkOS GitHub and are just here to provide an alternative when you are for example experiencing connection issues and for archive purposes. You can choose either one of them, and when needed (or 'the time comes') I will also make sure that my files are up-to-date with the original kernel headers (although I don't suspect any changes in them anytime soon though) 
+The original kernel headers can be found here: https://github.com/christianhaitian/arkos/tree/main/Headers
+
+And yes, there are more files in that repository than in mine, but that is because my tools etc only focus on the R36S and R36H (which are not officially supported by the ArkOS developer), therefor there are also quite a lot of file we basically don't need.
+
