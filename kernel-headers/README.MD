@@ -9,8 +9,7 @@ https://github.com/christianhaitian/arkos/tree/main/Headers
 If you're not a developer and are not installing (building!) custom drivers? Just stay away from these files, because you most likely won't ever need them 😉😂  
 
 ## Offline Installation
-Obviously it could also be that you would need these files as 'offline installation' when you are still working on getting your wifi/ethernet card working with your R36S/R36H, so that's why you can also use these files with the XNL Package Manager and the Offline Installation Method. Just download all the files in this folder and copy all of them (except the readme.md) to your <strong>OS-TF-CARD</strong> (SDCARD 1!) into the following folder:  
-/roms/XNLDev/update  
+Obviously it could also be that you would need these files as 'offline installation' when you are still working on getting your wifi/ethernet card working with your R36S/R36H, so that's why you can also use these files with the XNL Package Manager and the Offline Installation Method. Just download all the files in this folder and copy all of them (except the readme.md) to your <strong>OS-TF-CARD</strong> (SDCARD 1!) into the following folder: <strong>/roms/XNLDev/update</strong>  
 
 Then start the XNL Package Manager on your R36S/R36H and goto:  
 <strong>->Advanced Packages & Drivers ->Developer Options  Install Kernel Headers</strong>
