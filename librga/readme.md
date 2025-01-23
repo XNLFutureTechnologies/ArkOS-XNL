@@ -9,7 +9,9 @@ The files in this folder should go in the exact same folders on your R36S/R36H a
   
 NOTE: This needs to be in your Linux partition! NOT on your (windows accesible) partition(s)! and thus for example NOT on your roms partition! These should for example be transfered with an FTP program like FileZilla or using SSH.
   
-For most user I would personally recommend to just use the XNL Package Manager to install them. You can either install them using one of the online installation methods, or even use the offline installer by downloading the <strong>librga-libgo2.tar.gz</strong> file from the  <strong>XNL Installation Manager Packages</strong> and then copying it to the folder <strong>/roms/XNLDev/update</strong> folder on the <strong>TF-OS-CARD</strong> (SDCARD 1!) and then selecting the <strong>Offline Install (/roms/XNLDev/update)</strong> source option from the XNL Package Manager which you can find in:  
+For most user I would personally recommend to just use the XNL Package Manager to install them. You can either install them using one of the online installation methods, or even use the offline installer by downloading the <strong>librga-libgo2.tar.gz</strong> file from the <strong>XNL Installation Manager Packages</strong> directory in the root of this (ArkOS-XNL) repository and then copying it to the folder <strong>/roms/XNLDev/update</strong> folder on the <strong>TF-OS-CARD</strong> (SDCARD 1!).  
+
+You can then select the <strong>Offline Install (/roms/XNLDev/update)</strong> source option from the XNL Package Manager which you can find in:  
 <strong>->Advanced Packages & Drivers - ->Developer Options - Install librga & libgo2 Headers</strong>  
   
 When using the XNL Package Manager it will install both development headers at once (librga and libgo2) for the R36S/R36H  
