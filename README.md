@@ -5,7 +5,7 @@ Please note that certain sections of this repository (and thus the readme.md fil
 XNL Future Technologies ArkOS additions, improvements and tools for the <strong>R36S</strong> and <strong>R36H</strong> while using the <strong>official ArkOS</strong> version (by christianhaitian)
 Which can be found here: https://github.com/christianhaitian/arkos
 
-We personally prefer to use to official ArkOS version (instead of the community maintained version), and for that version I have also developed
+We personally prefer to use the official ArkOS version (instead of the community maintained version), and for that version I have also developed
 (and am currently developing) some significant updates, tools, programs and more. Which will all will be available on my Github at a later point
 when it's all done.
 
