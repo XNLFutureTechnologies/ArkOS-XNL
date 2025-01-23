@@ -28,6 +28,9 @@ However, if you are going to install the kernel headers, patch them and make the
   
 <strong>NOTE FOR MORE EXPERIANCED LINUX USERS:</strong> Yes, I'm aware that *make scripts* isn't buidling/compiling the kernel headers 😉, I'm just trying to keep it a bit simple here for newcomers to all this😊.  
 
+<strong>Contents of KernelCompilers.tar.gz:</strong>  
+build-essential_12.8ubuntu1_arm64.deb, libc6-dev_2.30-0ubuntu2.2_arm64.deb, libpython2.7-minimal_2.7.17-1~19.10_arm64.deb, libpython2.7-stdlib_2.7.17-1~19.10_arm64.deb, libpython2-stdlib_2.7.17-1_arm64.deb, libpython-stdlib_2.7.17-1_arm64.deb, libssl-dev_1.1.1c-1ubuntu4.1_arm64.deb, linux-libc-dev_5.3.0-64.58_arm64.deb, python_2.7.17-1_arm64.deb, python2.7_2.7.17-1~19.10_arm64.deb, python2.7-minimal_2.7.17-1~19.10_arm64.deb, python2_2.7.17-1_arm64.deb, python2-minimal_2.7.17-1_arm64.deb, python-minimal_2.7.17-1_arm64.deb  
+
 ## Offline Installation Warning
 While I do understand very well that you sometimes just need to install these packages in offline mode (for example when you are working on (or try to install) a driver for your network card and thus don't have internet access with your device yet). It is however <strong>strongly</strong> recommended to just use the online installers instead where and when possible! Simply because these files are obviously downloaded (and packaged by me) with/for a speciffic device, Linux version and kernel version. Therefor you <strong>can/should not</strong> use them on your device if it doesn't match the following specs:  
 Device(s): <strong>R36S</strong> or <strong>R36H</strong>  
