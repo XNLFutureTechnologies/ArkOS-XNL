@@ -14,8 +14,8 @@ Obviously it could also be that you would need these files as 'offline installat
 Then start the XNL Package Manager on your R36S/R36H and goto:  
 <strong>->Advanced Packages & Drivers ->Developer Options  Install Kernel Headers</strong>
 
-After <strong>reading the information</strong> and confirming that you do want to install them you can then select option 4:  
-<strong>Offline Install (/romd/XNLDev/update)</strong>
+After <strong>reading the information</strong> and confirming that you do want to install them you can then select option 3:  
+<strong>Offline Install (/roms/XNLDev/update)</strong>
   
 And the XNL Installation Wizard should do the rest
   
