@@ -20,7 +20,52 @@ After <strong>reading the information</strong> and confirming that you do want t
 And the XNL Installation Wizard should do the rest
   
 NOTE: The XNLDev needs to be made with the correct capitalization as shown, otherwise you might get issues when running the XNL Package Manager on your system! Most of the time this won't be an issue but just in case it is recommended to make sure the capitalization matches (this depends on the filesystem of your /roms folder and/or how the partition is mounted!)
+
+# What is in KernelCompilers.tar.gz
+This archive contains all the <strong>BARE MINIMUM</strong> (.deb) packages needed to make the kernel headers (no worries if you're new to this 😉, this is all automated with my XNL Package Manager). You can install the Kernel Headers but making the headers will require some additional packages (let's call them programs) to be installed, which are not installed by default on your ArkOS/Linux. This is not an mistake or so from the ArkOS developer, but these are just packages which regular users most of the time won't need 😊.  
   
+However, if you are going to install the kernel headers, patch them and make them (which is yet again all automated by my XNL Package Manager, no worries), then you will need those 'programs' to be installed to be able to make the kernel scripts.  
+  
+<strong>NOTE FOR MORE EXPERIANCED LINUX USERS:</strong> Yes, I'm aware that *make scripts* isn't buidling/compiling the kernel headers 😉, I'm just trying to keep it a bit simple here for newcomers to all this😊.  
+
+## Offline Installation Warning
+While I do understand very well that you sometimes just need to install these packages in offline mode (for example when you are working on (or try to install) a driver for your network card and thus don't have internet access with your device yet). It is however <strong>strongly</strong> recommended to just use the online installers instead where and when possible! Simply because these files are obviously downloaded (and packaged by me) with/for a speciffic device, Linux version and kernel version. Therefor you <strong>can/should not</strong> use them on your device if it doesn't match the following specs:  
+Device(s): <strong>R36S</strong> or <strong>R36H</strong>  
+ArkOS Version: <strong>12242024</strong> (or later)  
+Linux: Ubuntu <strong>19.10</strong>  
+Kernel Version: <strong>4.4.189</strong>  
+  
+In theory my installers/XNL Package Manager should be able to work on other devices which the same specs and OS (like for example the RG351MP/RGB10X) but I do not support any other devices than the R36S and the R36H.  
+
+## Compatibility Check
+If you would like to check if your device might be compatible with my installers, packages and my programs/scripts like the XNL Package Manager for example you can check this either manually or by using my <strong>XNL Compatibility Check</strong>  
+
+###XNL Compatibility Check
+<strong>Automatic Method:</strong>  
+This tool (script) can be downloaded here directly: [Link comming soon!]  
+Just copy this file into the Tools folder on your roms partition, for example: <strong>/roms/Tools</strong> if your on Linux/SSH/FTP etc or <strong>E:\Tools</strong> (replace the E:\ with your roms partition/drive letter of course, which is often called <strong>EASYROMS</strong>)  
+
+<strong>Manual Method:</strong>  
+Bascially your device should have files starting with: <strong>rk3326-rg351mp</strong> on it's Boot Partition, it should on the <strong>latest ArkOS</strong>, running on <strong>Ubuntu 19.10</strong>, and have the <strong>4.4.189 Linux kernel</strong> installed.  
+
+You can use the following commands (in the terminal, or over SSH for example):  
+<strong>uname -r</strong> should return 4.4.189  
+<strong>cat /etc/os-release</strong> should output something like this:  
+```
+NAME="Ubuntu"
+VERSION="19.10 (Eoan Ermine)"
+ID=ubuntu
+ID_LIKE=debian
+PRETTY_NAME="Ubuntu 19.10"
+VERSION_ID="19.10"
+HOME_URL="https://www.ubuntu.com/"
+SUPPORT_URL="https://help.ubuntu.com/"
+BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
+PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
+VERSION_CODENAME=eoan
+UBUNTU_CODENAME=eoan
+```
+
 ## Online Installation
 Online Installation of the kernel headers (and the required patches) is very easy when using the XNL Package Manager. You just start the XNL Package manager and goto:  
 <strong>->Advanced Packages & Drivers ->Developer Options  Install Kernel Headers</strong>
@@ -35,4 +80,3 @@ Just choose one of the two (online) installation sources and the wizard should d
 The original kernel headers can be found here: https://github.com/christianhaitian/arkos/tree/main/Headers  
 
 And yes, there are more files in that repository than in mine, but that is because my tools etc only focus on the R36S and R36H (which are not officially supported by the ArkOS developer), therefor there are also quite a lot of file we basically don't need.
-
