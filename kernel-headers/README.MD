@@ -43,6 +43,10 @@ If you would like to check if your device might be compatible with my installers
 ### XNL Compatibility Check (Automatic Method)
 This tool (script) can be downloaded here directly: [Link comming soon!]  
 Just copy this file into the Tools folder on your roms partition, for example: <strong>/roms/Tools</strong> if your on Linux/SSH/FTP etc or <strong>E:\Tools</strong> (replace the E:\ with your roms partition/drive letter of course, which is often called <strong>EASYROMS</strong>)  
+  
+Then from your console (after reinserting the SD-Card 😉) you go to <strong>Options</strong> (Or <strong>RetroPie</strong> depending on your theme) and there you should be able to find: <strong>XNL Compatibility Check</strong>. Just run that program (script) and you should get a message telling you if your device/installation should be compatible with my tools, packages etc.  
+  
+NOTE: If you are running it on a device which might be (very) similar to the R36S/R36H, it might also detect it as being compatible, but once again: <strong>I do not offer <u>any</u> support for devices other than the R36S and R36H.</strong>  
 
 ### Manual Method
 Bascially your device should have files starting with: <strong>rk3326-rg351mp</strong> on it's Boot Partition, it should on the <strong>latest ArkOS</strong>, running on <strong>Ubuntu 19.10</strong>, and have the <strong>4.4.189 Linux kernel</strong> installed.  
