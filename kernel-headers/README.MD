@@ -40,12 +40,11 @@ In theory my installers/XNL Package Manager should be able to work on other devi
 ## Compatibility Check
 If you would like to check if your device might be compatible with my installers, packages and my programs/scripts like the XNL Package Manager for example you can check this either manually or by using my <strong>XNL Compatibility Check</strong>  
 
-### XNL Compatibility Check  
-<strong>Automatic Method:</strong>  
+### XNL Compatibility Check (Automatic Method)
 This tool (script) can be downloaded here directly: [Link comming soon!]  
 Just copy this file into the Tools folder on your roms partition, for example: <strong>/roms/Tools</strong> if your on Linux/SSH/FTP etc or <strong>E:\Tools</strong> (replace the E:\ with your roms partition/drive letter of course, which is often called <strong>EASYROMS</strong>)  
 
-<strong>Manual Method:</strong>  
+### Manual Method
 Bascially your device should have files starting with: <strong>rk3326-rg351mp</strong> on it's Boot Partition, it should on the <strong>latest ArkOS</strong>, running on <strong>Ubuntu 19.10</strong>, and have the <strong>4.4.189 Linux kernel</strong> installed.  
 
 You can use the following commands (in the terminal, or over SSH for example):  
