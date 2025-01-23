@@ -10,13 +10,13 @@ Then on your R36S/R36H you start the XNL Package Manager and goto <strong></stro
 ## Can I use these packages and/or your scripts/tools/software for other devices than the R36S/R36H?
 You could <strong>probably</strong> use my tools/software etc on any other device running on the same ArkOS version which is used for the <strong>R36S/R36H</strong> (which is the <strong>RG351MP/RGB10X</strong> version). It should in <strong>theory</strong> be possible but I do not offer support and will not add support for any other device(s) than listed in my projects/software. Simply because these devices are not my main project, not 'the thing' I spend all day on (retro gaming etc), and because I only make (and test) tools/scripts/software etc on devices on which I can actually physically test it my self (and thus own).  
 
-You could try running my tools/software and scripts on other devices than the R36S/R36H (<strong>at your own risk of course</strong>), It is however important that the specs match the R36S/R36H:
+You could try running my tools/software and scripts on other devices than the R36S/R36H (<strong>at your own risk of course</strong>), It is however important that the specs match the R36S/R36H:  
 CPU: <strong>RK3326</strong>  
 GPU: <strong>Mali-G31 MP2</strong>  
 RAM: <strong>1GB</strong>  
 Architecture: <strong>32bit & 64bit (aarch64)</strong>  
-Screen Resolution: <strong>640x480</strong>
-Linux Kernel: <strong>4.4.189</strong> (<strong>IMPORTANT!</strong>)
+Screen Resolution: <strong>640x480</strong>  
+Linux Kernel: <strong>4.4.189</strong> (<strong>IMPORTANT!</strong>)  
 Linux Distro: <strong>Ubuntu 19.10 (Eoan)</strong>  
 
 Personally I suspect that my tools/scripts/programs will work on much more devices than only the R36S/R36H and the RG351MP/RGB10X range, but that's all up to you to try for yourself. If so you can always let me know and maybe I might eventually publish a list of devices on which my tools also work. Something like a *"Confirmed by the community to work on the following (nonsupported) devices:"* list  
