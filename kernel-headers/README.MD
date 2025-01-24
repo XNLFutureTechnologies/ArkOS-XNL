@@ -46,7 +46,7 @@ In theory my installers/XNL Package Manager should be able to work on other devi
 If you would like to check if your device might be compatible with my installers, packages and my programs/scripts like the XNL Package Manager for example you can check this either manually or by using my <strong>XNL Compatibility Check</strong>  
 
 ### XNL Compatibility Check (Automatic Method)
-This tool (script) can be downloaded here directly: [Link comming soon!]  
+This tool (script) can be downloaded here directly: [XNL Compatibility Check - Direct Link](https://www.teamxnl.com/R36-XCC) [XNL Compatibility Check - GitHub](https://github.com/XNLFutureTechnologies/XNL_R36_Compatibility_Check)   
 Just copy this file into the Tools folder on your roms partition, for example: <strong>/roms/Tools</strong> if your on Linux/SSH/FTP etc or <strong>E:\Tools</strong> (replace the E:\ with your roms partition/drive letter of course, which is often called <strong>EASYROMS</strong>)  
   
 Then from your console (after reinserting the SD-Card 😉) you go to <strong>Options</strong> (Or <strong>RetroPie</strong> depending on your theme) and there you should be able to find: <strong>XNL Compatibility Check</strong>. Just run that program (script) and you should get a message telling you if your device/installation should be compatible with my tools, packages etc.  
