@@ -76,7 +76,7 @@ UBUNTU_CODENAME=eoan
 
 ## Online Installation
 Online Installation of the kernel headers (and the required patches) is very easy when using the XNL Package Manager. You just start the XNL Package manager and goto:  
-<strong>->Advanced Packages & Drivers ->Developer Options  Install Kernel Headers</strong>
+<strong>->Advanced Packages & Drivers - ->Developer Options - Install Kernel Headers</strong>
 
 And from there you can choose which installation source you want to use:  
 1 XNL Future Technologies GitHub  
