@@ -7,6 +7,12 @@ Most of the packages in this directory can also be used as Offline Installer whe
 
 Then on your R36S/R36H you start the XNL Package Manager and goto <strong></strong>->Advanced Packages & Drivers - ->Developer Options - Install librga & libgo2 Headers</strong>, then after <strong>reading the information presented</strong> you can click on Yes and then select <strong>Offline Install (/roms/XNLDev/update)</strong>
 
+## Can I use these packages to (fully) manually install these tools, drivers, applications etc?
+No you can't. Well you could, IF you would know the exact process required for each package. Some of these packages (most actually) require additional steps, command, system configuration etc to install them properly. These archives (the .tar.gz files) however DO NOT contain any install scripts or whatever. They for example only contain binaries, .deb packages, headers etc. The XNL R36 Package Manager can (and should) be used to properly install, update and uninstall these packages. The XNL R36 Package Manager is designed to make installation of these package super easy with a user friendly user interface and full automation of the process.  
+  
+<strong>Where can I find the XNL R36 Package Manager?</strong>  
+Currently it's still in development, but like mentioned on the main page I do need (quite) some files to be online already (like these packages for example) to be sure that it works as flawless as possible over a real internet connection (and not just a locally hosted repository for example). Once the XNL R36 Package Manager is release you will be able to find it both on my website and on my GitHub (links will follow when it is released)  
+  
 ## Can I use these packages and/or your scripts/tools/software for other devices than the R36S/R36H?
 You could <strong>probably</strong> use my tools/software etc on any other device running on the same ArkOS version which is used for the <strong>R36S/R36H</strong> (which is the <strong>RG351MP/RGB10X</strong> version). It should in <strong>theory</strong> be possible but I do not offer support and will not add support for any other device(s) than listed in my projects/software. Simply because these devices are not my main project, not 'the thing' I spend all day on (retro gaming etc), and because I only make (and test) tools/scripts/software etc on devices on which I can actually physically test it my self (and thus own).  
 
