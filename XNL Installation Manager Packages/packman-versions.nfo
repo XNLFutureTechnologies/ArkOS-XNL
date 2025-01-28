@@ -1,0 +1,9 @@
+# XNL Future Technologies
+# https://www.teamxnl.com/product-categorie/xnlsoftware/xnlopensourcesoft/arkos-linux-r36/
+# https://www.youtube.com/@XNLFutureTechnologies
+# 
+# Online Package Version Info: XNL R36 Package Manager
+# NOTE: This is not intended to be used by end-users as version numbers/indication, it's just intended so that the XPM knows
+# which package version is availible online vs the package version of a locally installed package, these numbers do NOT directly
+# correspond to the actual driver, program, script or whatever is in the package version.
+XNLRTL8188RTV=1
