@@ -30,7 +30,7 @@ However, if you are going to install the kernel headers, patch them and make the
 
 <strong>Contents of KernelCompilers.tar.gz:</strong>  
 ```
-build-essential_12.8ubuntu1_arm64.deb, libc6-dev_2.30-0ubuntu2.2_arm64.deb, libpython2.7-minimal_2.7.17-1~19.10_arm64.deb, libpython2.7-stdlib_2.7.17-1~19.10_arm64.deb, libpython2-stdlib_2.7.17-1_arm64.deb, libpython-stdlib_2.7.17-1_arm64.deb, libssl-dev_1.1.1c-1ubuntu4.1_arm64.deb, linux-libc-dev_5.3.0-64.58_arm64.deb, python_2.7.17-1_arm64.deb, python2.7_2.7.17-1~19.10_arm64.deb, python2.7-minimal_2.7.17-1~19.10_arm64.deb, python2_2.7.17-1_arm64.deb, python2-minimal_2.7.17-1_arm64.deb, python-minimal_2.7.17-1_arm64.deb  
+build-essential_12.8ubuntu1_arm64.deb, libc6-dev_2.30-0ubuntu2.2_arm64.deb, libpython2.7-minimal_2.7.17-1~19.10_arm64.deb, libpython2.7-stdlib_2.7.17-1~19.10_arm64.deb, libpython2-stdlib_2.7.17-1_arm64.deb, libpython-stdlib_2.7.17-1_arm64.deb, libssl-dev_1.1.1c-1ubuntu4.1_arm64.deb, linux-libc-dev_5.3.0-64.58_arm64.deb, python_2.7.17-1_arm64.deb, python2.7_2.7.17-1~19.10_arm64.deb, python2.7-minimal_2.7.17-1~19.10_arm64.deb, python2_2.7.17-1_arm64.deb, python2-minimal_2.7.17-1_arm64.deb, python-minimal_2.7.17-1_arm64.deb flex_2.6.4-6.2_arm64.deb bison_2%3a3.4.1+dfsg-4_arm64.deb bc_1.07.1-2build1_arm64.deb  
 ```
 
 ## Offline Installation Warning
